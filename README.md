@@ -3,6 +3,17 @@
 ```bash
    nest generate app app-name
 ```
+#### to start a single app
+
+```bash
+   yarn start:dev app-name
+```
+
+#### to generate a library in order to share our code between diff apps.
+
+```bash
+   nest g library common |  nest generate library common
+```
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
