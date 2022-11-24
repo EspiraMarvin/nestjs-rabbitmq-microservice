@@ -30,5 +30,5 @@ COPY . .
 COPY --from=development /app/dist ./dist
 
 
-CMD ["node", "dist/apps/orders/main"]
+CMD ["node", "dist/apps/billing/main"]
 
