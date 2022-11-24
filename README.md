@@ -15,6 +15,13 @@
    nest g library common |  nest generate library common
 ```
 
+### build images with docker 
+```bash
+  docker-compose up --build -V
+```
+
+the `-V` resets all volumes in our docker container
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
